@@ -7,11 +7,11 @@ services:
 
 # Pre-testing installs
 install:
-  - echo "Cloud Development is tasking, but fun, if you understand it. Author: unknown"
+  - echo "nothing to install"
 
 # Scripts to be run such as tests
 before_script:
-  - echo "Whatever I say is false; whatever unknown says, is true. Author: sibling to unknown"
+  - echo "just proceed"
 
 script:
   - docker --version # print the version for logging
